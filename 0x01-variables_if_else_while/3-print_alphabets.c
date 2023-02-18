@@ -4,16 +4,25 @@
  * Return: Always 0 (success)
  */
 
-int main(void);
-{
-	char ch;
+int main() {
+    char lowercase, uppercase;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	putchar(ch);
-	
-	for (ch = 'A'; ch <= 'Z'; ch++)
-	putchar(ch);
-	
-	putchar('\n');	
-	return (0);
+    putchar('Lowercase alphabet: ');
+    for(lowercase = 'a'; lowercase <= 'z'; lowercase++) {
+        putchar(lowercase);
+        putchar(' ');
+    }
+
+    putchar('\n');
+
+    putchar('Uppercase alphabet: ');
+    for(uppercase = 'A'; uppercase <= 'Z'; uppercase++) {
+        putchar(uppercase);
+        putchar(' ');
+    }
+
+    putchar('\n');
+
+    return 0;
 }
+
