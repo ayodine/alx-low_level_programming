@@ -13,7 +13,7 @@ int main(void)
 		int j = i % 10;
 		int k = i / 10;
 
-		if (k != j && K < j)
+		if (k != j && k < j)
 		{
 			putchar(k + 48);
 			putchar(j + 48);
