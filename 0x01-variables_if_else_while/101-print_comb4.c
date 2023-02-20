@@ -16,13 +16,13 @@ int main(void)
 
 		if (j != k && j != l && k != l && k > j && l > k)
 		{
-			putchar(j + 48);
-			putchar(k + 48);
-			putchar(l + 48);
+			putchar(j + '0');
+			putchar(k + '0');
+			putchar(l + '0');
 			if (i < 999)
 			{
-				putchar(44);
-				putchar(32);
+				putchar(',');
+				putchar(' ');
 			}
 		}
 		i++;
