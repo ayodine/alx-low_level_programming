@@ -10,7 +10,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		putchar(i +48);
+		putchar(i + 48);
 	}
 	for (i = 10; i < 16; i++)
 	{
